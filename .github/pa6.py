@@ -127,6 +127,7 @@ def stormAverage(data):
             num_of_days += storm_length_day
     if(storm_counter == 0 ):
         print("Division by zero, please try again")
+        type_of_storm = input("Enter storm type ")
     else:
         avg = num_of_days / storm_counter
         avg = round(avg, 2)
